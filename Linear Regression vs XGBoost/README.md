@@ -9,8 +9,6 @@ Predicting hourly bike rentals with a linear baseline and a gradient boosting mo
 
 XGBoost cuts the average error by about 69%.
 
-![XGBoost results](graphs/xgb_results.png)
-
 ## Dataset
 
 [UCI Bike Sharing Dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), file `hour.csv`: 17,379 hourly records from Capital Bikeshare, Washington D.C. (2011–2012).
@@ -24,9 +22,6 @@ The dataset is not included in this repository. Download it from the link above 
 ## Why this dataset
 
 Rentals follow a strong non-linear daily pattern that changes between working days and weekends: two commuter peaks (08:00 and 17:00–18:00) on working days, one midday curve on weekends.
-
-![Hourly pattern](graphs/hourly_sharing_table.png)
-
 A linear model learns one fixed effect per hour, the same for Monday and Sunday. It cannot express this interaction. XGBoost learns it from tree splits without manual feature engineering.
 
 ## Approach
@@ -123,6 +118,3 @@ matplotlib
 
 A detailed write-up covering gradient boosting theory, XGBoost internals and this comparison: *[Medium link]*
 
-## Acknowledgements
-
-Fanaee-T, H. and Gama, J. (2013). *Event labeling combining ensemble detectors and background knowledge.* Progress in Artificial Intelligence. Dataset via the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset).
