@@ -66,11 +66,6 @@ Linear Regression predicts nearly the same for a working-day morning and a Sunda
 
 Top features by gain (XGBoost): `hr` 28.6%, `workingday` 22.7%, `yr` 18.4%.
 
-| Linear Regression | XGBoost |
-| --- | --- |
-| ![LR results](graphs/lr_results.png) | ![XGB learning curve](graphs/xgb_learning_curve.png) |
-| ![LR hour coefficients](graphs/lr_hour_coefs.png) | ![XGB feature importance](graphs/xgb_feature_importance.png) |
-
 ## Project structure
 
 ```
