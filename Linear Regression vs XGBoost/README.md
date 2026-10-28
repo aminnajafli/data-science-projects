@@ -65,6 +65,10 @@ Linear Regression scores the same on train and test: it underfits. XGBoost gener
 Linear Regression predicts nearly the same for a working-day morning and a Sunday morning. XGBoost captures the difference.
 
 Top features by gain (XGBoost): `hr` 28.6%, `workingday` 22.7%, `yr` 18.4%.
+<img width="812" height="222" alt="image" src="https://github.com/user-attachments/assets/cfc076d2-9958-4c9d-bb9f-dcd5f76b014e" />
+<img width="814" height="224" alt="image" src="https://github.com/user-attachments/assets/affc5e9a-fb23-4bf0-aab6-13552e936cce" />
+
+
 
 ## Project structure
 
